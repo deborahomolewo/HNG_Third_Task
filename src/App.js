@@ -7,7 +7,15 @@ import Nav from './components/Nav';
 
 
 function App() { 
-
+  const { isAuthenticated } = useAuth0();
+  useEffect (() => {
+    const correctDomain = 'https://hng-third-task-con2.vercel.app/';
+    if(!isAuthenticated){
+      if (window.location.href !== correctDomain) {
+        window.location.href = correctDomain;
+      }
+    }
+  }, []);
   return (
     <div>
       <Nav />
