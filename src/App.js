@@ -10,7 +10,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 function App() { 
   const { isAuthenticated } = useAuth0();
   useEffect (() => {
-    const correctDomain = 'https://hng-third-task-con2.vercel.app/';
+    const correctDomain = 'https://hng-third-task-con2.vercel.app';
     if(!isAuthenticated){
       if (window.location.origin !== correctDomain) {
         window.location.href = correctDomain;
