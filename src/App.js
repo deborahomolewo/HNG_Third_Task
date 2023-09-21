@@ -13,7 +13,7 @@ function App() {
     const correctDomain = 'https://hng-third-task-con2.vercel.app/';
     if(!isAuthenticated){
       if (window.location.origin !== correctDomain) {
-        window.location.origin = correctDomain;
+        window.location.href = correctDomain;
       }
     }
   }, []);
