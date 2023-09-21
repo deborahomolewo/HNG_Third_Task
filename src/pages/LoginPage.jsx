@@ -8,7 +8,7 @@ function Login() {
     const { isLoading, error } = useAuth0();
     return (
     <div className="info">
-      <h3>Welcome, to Image Gallery App</h3>
+      <h1>Welcome, to Image Gallery App</h1>
         {error && <p>Authentication Error</p>}
         {!error && isLoading && <div className="spinner"></div>}
         {!error && !isLoading && (

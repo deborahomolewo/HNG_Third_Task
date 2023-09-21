@@ -1,6 +1,6 @@
 @media only screen and (min-width: 0px) {
     .signout {
-        padding: 10px;
+        padding: 5px;
         background-color: black;
         color: white;
         border-radius: 15px;
@@ -11,7 +11,7 @@
 
 @media only screen and (min-width: 992px) {
     .signout {
-        padding: 20px;
+        padding: 10px;
         background-color: black;
         color: white;
         border-radius: 15px;

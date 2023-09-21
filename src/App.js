@@ -3,7 +3,6 @@ import "./App.css";
 import Login from './pages/LoginPage';
 import Gallery from './pages/Gallery';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
 import { useAuth0 } from "@auth0/auth0-react";
 
 
@@ -19,7 +18,6 @@ function App() {
   }, []);
   return (
     <div className='app'>
-      <Nav />
       <Login />
       <Gallery />
       <Footer />

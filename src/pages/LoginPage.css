@@ -38,19 +38,19 @@
 @media only screen and (min-width: 992px) {
   .info {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row !important;
+    justify-content: space-between;
     align-items: center;
    
   }
 
-  h3 {
+  h1 {
     color: black;
     padding: 20px;
   }
 
 .click {
-    padding: 20px;
+    padding: 10px;
     color: white;
 }
 
