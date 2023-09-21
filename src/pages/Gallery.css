@@ -1,12 +1,13 @@
-@media screen and (max-width: 768px) {
-  .gallery {
+@media screen and (max-width: 0px) {
+  /* .gallery {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 10px;
     padding: 10px;
-  }
+  } */
 
   .gallery img {
     height: 400px;
+    width: -webkit-fill-available;
   }
 
   .picFrame {
@@ -18,14 +19,15 @@
     gap: 10px;
     overflow: hidden;
   }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 15px;
+    padding: 20px; 
+}
 }
 
 @media screen and (max-width: 992px) {
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        grid-gap: 15px;
-        padding: 20px; 
-    }
     .gallery img {
         height: 400px; 
     }

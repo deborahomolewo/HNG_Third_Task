@@ -9,3 +9,8 @@
 html {
   font-family: 'Nunito', sans-serif;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+}

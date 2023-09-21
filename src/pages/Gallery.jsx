@@ -63,7 +63,7 @@ const Gallery = () => {
   }, []);
   return (
     isAuthenticated && (
-    <main>
+    <main className="main">
         <ul className="gallery">
         {React.Children.toArray(
             images.map((image, index) => (
