@@ -1,7 +1,20 @@
-.signout {
-    padding: 20px;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    font-size: larger;
+@media only screen and (min-width: 0px) {
+    .signout {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: small;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .signout {
+        padding: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: larger;
+    }
 }
