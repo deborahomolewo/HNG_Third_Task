@@ -8,13 +8,6 @@ import Nav from './components/Nav';
 
 function App() { 
 
-  useEffect (() => {
-    const correctDomain = 'https://hng-third-task-con2.vercel.app/';
-
-    if (window.location.href !== correctDomain) {
-      window.location.href = correctDomain;
-    }
-  }, []);
   return (
     <div>
       <Nav />
