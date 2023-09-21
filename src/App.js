@@ -12,8 +12,8 @@ function App() {
   useEffect (() => {
     const correctDomain = 'https://hng-third-task-con2.vercel.app/';
     if(!isAuthenticated){
-      if (window.location.href !== correctDomain) {
-        window.location.href = correctDomain;
+      if (window.location.origin !== correctDomain) {
+        window.location.origin = correctDomain;
       }
     }
   }, []);
