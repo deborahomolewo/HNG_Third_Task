@@ -47,7 +47,7 @@
     
         .search input {
             height: 2rem;
-            border: 2px solid #fff;
+            border: 2px solid black;
             border-radius: 7px;
             padding-right: 1rem;
             padding-left: 1rem;
